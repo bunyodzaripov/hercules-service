@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.btn {
+    padding: 15px 40px;
+    background-color: #39546C;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #5882a6;
+    color: black;
+}
+
+.active {
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+}
+
+.container {
+    max-width: 1268px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+header {
+    background: #33333380;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 0 15px ;
+}
+
+.hero {
+    padding-top: 100px;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/hero-car.png");
+}  
+
+
+.hero-content {
+    max-width: 623px;
+}
+
+.hero-content > h2{
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 56px;
+    color: #fff;
+}
+
+.hero-content > p {
+    font-size: 20px;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.hero-content button {
+    margin-bottom: 209px;
+    padding: 15px 40px;
+    background-color: #39546C;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.hero-content button:hover  {
+    background-color: #5882a6;
+    color: black;
+}
+
+.about-us {
+    background-color: #0C1218;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 70px ;
+    padding: 20px 0;
+    padding-bottom: 106px;
+}
+
+.card {
+    max-width: 375.33px;
+    height: 148px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.services {
+    background-color: #0C1218;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-content h2 {
+    font-size: 36px;
+    font-weight: 700px;
+    text-align: center;
+    color: #fff;
+}
+
+.services-content > p {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 13px;
+    padding-bottom: 56px;
+    text-align: center;
+    color: #fff;
+}
+
+.services-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 11px;
+}
+
+.services-card {
+    height: 418px;
+    width: 302px;
+}
+
+.services-card > h3 {
+    padding-top: 19px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.services-card > p {
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    padding-top: 9px;
+    color: #BCBBBB;
+    padding-bottom: 27px;
+}
+
+.services-card > a {
+    text-decoration: none;
+    color: #00C2FF;
+}
+
+.services-btn {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.newslatter {
+    background-image: url("../images/news-car.png");
+    height: 287px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    gap: 15px 0;
+    text-align: center;
+}
+
+.news-content span {
+    font-size: 20px;
+}
+
+.news-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
